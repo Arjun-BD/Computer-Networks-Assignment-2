@@ -104,11 +104,7 @@ All experimental results are available in the **results/** folder:
 
 - **`hi_partD.log`** (where i = 1, 2, 3, 4):
   - Contains the console output from each host during query execution
-  - Shows real-time progress and summary statistics
 
-- **`resolver.log`**:
-  - Centralized log from the custom DNS resolver (h5)
-  - Records all resolution steps for all queries from all clients
 
 ### Plots
 
@@ -116,7 +112,6 @@ Three visualization plots are provided:
 
 1. **DNS Latency per Query** - Shows response time for each DNS query
 2. **Total DNS Servers Visited** - Displays the number of DNS servers contacted per query
-3. **Comparative Performance Metrics** - Summarizes throughput, latency, and success rates across hosts
 
 ### Metric Screenshots
 
