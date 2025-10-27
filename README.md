@@ -1,7 +1,12 @@
 # How to Run
 
 ## Prerequisites
-- Use the PCAP files in the **PCAP folder** (filtered version containing only valid DNS query packets)
+- Use the PCAP files in the **PCAP folder** (filtered version containing only valid DNS query packets). Alternativey, you may use the originl PCAP files and run
+```bash
+   sudo python3 dns_e.py
+```
+to extract the valid DNS query packets
+
 - Ensure Mininet is installed and properly configured
 - Required Python libraries: Scapy, TShark, and other dependencies as specified in the scripts
 
